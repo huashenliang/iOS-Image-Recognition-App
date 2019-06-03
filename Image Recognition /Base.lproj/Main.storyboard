@@ -25,11 +25,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="hXw-xW-o2A" secondAttribute="bottom" id="1QP-CI-WvL"/>
-                            <constraint firstItem="hXw-xW-o2A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q6g-cp-yuf"/>
-                            <constraint firstItem="hXw-xW-o2A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Thp-Mx-stW"/>
-                            <constraint firstItem="hXw-xW-o2A" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uuf-J7-IIF"/>
+                            <constraint firstItem="hXw-xW-o2A" firstAttribute="leading" secondItem="dGg-DH-exP" secondAttribute="leading" id="Q6g-cp-yuf"/>
+                            <constraint firstItem="hXw-xW-o2A" firstAttribute="top" secondItem="dGg-DH-exP" secondAttribute="top" id="Thp-Mx-stW"/>
+                            <constraint firstItem="hXw-xW-o2A" firstAttribute="trailing" secondItem="dGg-DH-exP" secondAttribute="trailing" id="uuf-J7-IIF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="dGg-DH-exP"/>
                     </view>
                     <navigationItem key="navigationItem" id="fyg-pZ-uxW">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="MgP-JG-Epm">

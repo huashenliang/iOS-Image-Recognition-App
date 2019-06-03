@@ -36,7 +36,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         //orignal unedited image selected by the user, the image that user selected or tooked
         if let userPickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-        
+            imageView.contentMode = UIView.ContentMode.scaleToFill
             imageView.image = userPickedImage
             
             //convert user picked UIimage to CIImage, then able to use the Vision framework and coreML
